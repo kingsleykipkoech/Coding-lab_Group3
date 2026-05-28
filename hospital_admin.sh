@@ -49,3 +49,5 @@
 }
 
 initialize_system
+
+echo "Done. KNH system is ready to use."

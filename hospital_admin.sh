@@ -3,6 +3,7 @@
 # Member 1 - The Architect
 # Function: initialize_system
 # Purpose: Creates the required directories if they don't exist
+# Date: 2026-05-28
 
  initialize_system() {
 

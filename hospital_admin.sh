@@ -1,4 +1,4 @@
-#!/bin/bash
+i#!/bin/bash
 initialize_system() { 
 dir1="active_logs"
 dir2="archived_logs"
@@ -25,3 +25,5 @@ secure_data() {
 } 
 initialize_system
 secure_data
+echo " System Environment Secured"
+

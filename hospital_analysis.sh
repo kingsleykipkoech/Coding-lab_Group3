@@ -1,6 +1,6 @@
 process_vitals() {
 echo "scanning for critical conditions"
-grep "CRITICAL" active_logs/heart_rate_log.log active_logs/temprature_log.log | \
+grep "CRITICAL" active_logs/heart_rate_log.log active_logs/temperature_log.log | \
 awk -F'|' '{print $1, $2, $3}'>reports/critical_alerts.txt
 echo "scan complete"
 }

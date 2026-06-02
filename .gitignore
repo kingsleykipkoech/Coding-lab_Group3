@@ -1,4 +1,12 @@
-ctive_logs/
+# Infrastructure
+__pycache__/
+*.py[cod]
+
+# Local Data (KNH Sensitive)
+active_logs/
 archived_logs/
 reports/
-/tmp/hospital_system.pid
+
+# System Junk
+.DS_Store
+*.swp

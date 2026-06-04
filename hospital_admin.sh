@@ -29,11 +29,11 @@ initialize_system() {
 }
 
 secure_data() {
-	echo"we are securing the data"
+	echo "Securing the active_logs directory..."
 	chmod 700 active_logs
-	ls -l  active_logs
-	echo"permission updated"
-} 
+	echo "Permissions updated."
+}
+
 initialize_system
 secure_data
-echo " System Environment Secured"
+echo "System Environment Secured [$(date)]"

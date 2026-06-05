@@ -37,7 +37,10 @@
 
 ---
 
-## Project StructureCoding-lab_Group3/
+## Project Structure
+
+```
+Coding-lab_Group3/
 ├── .gitignore
 ├── hospital_admin.sh
 ├── hospital_analysis.sh
@@ -53,8 +56,12 @@
 │   ├── temperature_YYYYMMDD_HHMM.log
 │   └── water_usage_YYYYMMDD_HHMM.log
 └── reports/
-└── critical_alerts.txt---
+    └── critical_alerts.txt
+```
 
+---
+
+## How to Run
 ## How to Run
 
 > Run these steps in order.

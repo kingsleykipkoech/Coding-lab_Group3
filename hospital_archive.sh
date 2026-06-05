@@ -8,5 +8,5 @@ echo "Logs successfully moved to archived_logs/"
 touch active_logs/heart_rate_log.log
 touch active_logs/temperature_log.log
 touch active_logs/water_usage_log.log
-echo "Structuring  success......"
+echo "Structuring  has  been a success."
 

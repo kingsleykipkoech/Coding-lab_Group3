@@ -2,7 +2,8 @@
 > An automated framework for architecting, securing, and auditing hospital technology infrastructure.
 
 ---[
-https://docs.google.com/spreadsheets/d/1Te2l_EKtbRbS5P6uxaKBBB_BxgcejEbxcXyvz_L8-AA/edit?usp=sharing](url)
+https://docs.google.com/spreadsheets/d/1Te2l_EKtbRbS5P6uxaKBBB_BxgcejEbxcXyvz_L8-AA/edit?usp=sharing](url)   -TEAM TASKS HEET
+
 ## The  Team
 
 ### 1. Kingsley Kipkoech

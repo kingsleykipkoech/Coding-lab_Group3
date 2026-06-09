@@ -2,7 +2,7 @@
 > An automated framework for architecting, securing, and auditing hospital technology infrastructure.
 
 ---[
-https://docs.google.com/spreadsheets/d/1Te2l_EKtbRbS5P6uxaKBBB_BxgcejEbxcXyvz_L8-AA/edit?usp=sharing](url)   -TEAM TASKS HEET
+https://docs.google.com/spreadsheets/d/1Te2l_EKtbRbS5P6uxaKBBB_BxgcejEbxcXyvz_L8-AA/edit?usp=sharing](url)   -TEAM TASKS SHEET
 
 ## The  Team
 
@@ -67,24 +67,11 @@ Coding-lab_Group3/
 
 > Run these steps in order.
 
-**Step 1 — Initialize environment and set folder structures**
-```bash
-bash hospital_admin.sh
-```
 
-**Step 2 — Start the data engine**
+
+**Step 1 — Start the data engine**
 ```bash
 python3 hospital_system.py start
-```
-
-**Step 3 — Run security analysis and log auditing**
-```bash
-bash hospital_analysis.sh
-```
-
-**Step 4 — Archive the logs**
-```bash
-bash hospital_archive.sh
 ```
 
 **Step 5 — Stop the engine**
@@ -92,11 +79,26 @@ bash hospital_archive.sh
 python3 hospital_system.py stop
 ```
 
+**Step 3 — Start the environment **
+```bash
+bash hospital_admin.sh
+```
+**Step 4 — Run security analysis and log auditing**
+```bash
+bash hospital_analysis.sh
+```
+
+**Step 5 — Archive the logs**
+```bash
+bash hospital_archive.sh
+```
+
+
 ---
 
 ## What Each Script Does
 
-- **hospital_admin.sh** — Creates `active_logs`, `archived_logs`, and `reports` directories. Locks down permissions so only the owner can read and write sensitive log data.
+- **hospital_admin.sh** — Creates `active_logs`, `archived_logs`, and `reports` directories. SETS the  permissions so only the owner can read and write log data.
 
 - **hospital_analysis.sh** — Scans heart rate and temperature logs for CRITICAL readings and saves them to `reports/critical_alerts.txt`. Calculates the average water usage for the ICU_WATER_RESERVE.
 
